@@ -1,0 +1,46 @@
+label{
+    text-decoration: underline;
+
+}
+label[for="red"]{
+    color: red;
+}
+
+label[for="green"]{
+    color: green;
+}
+
+label[for="blue"]{
+    color: blue;
+}
+
+*[class="red"]{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+}
+
+*[class="blue"]{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+}
+
+*[class="green"]{
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+}
+
+input[id="red"]:not(:checked)~label[for="red"],
+input[id="blue"]:not(:checked)~label[for="blue"],
+input[id="green"]:not(:checked)~label[for="green"]{
+    color: #cccccc;
+}
+
+input[id="red"]:not(:checked)~span[class="red"],
+input[id="blue"]:not(:checked)~span[class="blue"],
+input[id="green"]:not(:checked)~span[class="green"]
+{
+    display: none;
+}
