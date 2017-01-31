@@ -1,7 +1,12 @@
+span{
+    padding: 5px;
+}
+
 label{
     text-decoration: underline;
-
+    margin-right: 10px;
 }
+
 label[for="red"]{
     color: red;
 }
@@ -31,7 +36,9 @@ label[for="blue"]{
     color: white;
     border-radius: 3px;
 }
-
+input{
+    display: none;
+}
 input[id="red"]:not(:checked)~label[for="red"],
 input[id="blue"]:not(:checked)~label[for="blue"],
 input[id="green"]:not(:checked)~label[for="green"]{
