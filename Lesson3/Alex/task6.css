@@ -39,10 +39,15 @@ label[for="blue"]{
 input{
     display: none;
 }
-input[id="red"]:not(:checked)~label[for="red"],
-input[id="blue"]:not(:checked)~label[for="blue"],
+input[id="red"]:not(:checked)~label[for="red"]{
+    color: #ffb5b5
+}
+input[id="blue"]:not(:checked)~label[for="blue"]
+{
+    color: #b3b3ff;
+}
 input[id="green"]:not(:checked)~label[for="green"]{
-    color: #cccccc;
+    color: #b3d9b3;
 }
 
 input[id="red"]:not(:checked)~span[class="red"],
