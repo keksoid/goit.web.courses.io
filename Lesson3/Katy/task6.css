@@ -1,0 +1,53 @@
+.red {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 0.3%;
+
+}
+.green {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding: 0.3%;
+
+}
+.blue {
+     color: white;
+     background-color: blue;
+     border-radius: 5px;
+     padding: 0.3%;
+}
+input{
+    display: none;
+
+}
+ #red:checked ~ .red{
+     display: none;
+ }
+#green:checked ~ .green{
+    display: none;
+}
+#blue:checked ~ .blue{
+    display: none;
+}
+label[for="red"] {
+    color: red;
+    text-decoration: underline;
+}
+label[for="green"] {
+    color: green;
+    text-decoration: underline;}
+label[for="blue"] {
+    color: blue;
+    text-decoration: underline;}
+#red:checked ~ label[for="red"]{
+    color: #ffabae;
+}
+
+#green:checked ~ label[for="green"]{
+    color: #b9ffb4;
+}
+#blue:checked ~ label[for="blue"]{
+    color: #c4c7ff;
+}
