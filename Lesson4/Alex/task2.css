@@ -17,9 +17,14 @@ li{
     padding: 0 16px;
     line-height: 38px;
 }
+
 li:hover{
     background-color: RGB(238, 238, 238);
     color: RGB(170, 170, 160);
     cursor:context-menu;
+}
+
+.mi_more{
+    float: right;
 }
 
