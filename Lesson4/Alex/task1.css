@@ -1,0 +1,24 @@
+.menu{
+    background-color: RGB(166, 77, 255);
+}
+
+ul{
+    width: 900px;
+    margin: auto;
+}
+
+li{
+    background-color: RGB(166, 77, 255);
+    display: inline-block;
+    font-family: Impact;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    padding: 0 16px;
+    line-height: 38px;
+}
+li:hover{
+    background-color: RGB(238, 238, 238);
+    color: RGB(170, 170, 160);
+}
+
