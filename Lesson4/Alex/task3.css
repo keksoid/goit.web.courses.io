@@ -1,0 +1,45 @@
+li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.first_page, .prev_page{
+    margin-right: 20px;
+}
+
+.last_page, .next_page{
+    margin-left: 20px;
+}
+
+.first_page:before, .prev_page:before{
+    content: "«";
+    margin-right: 5px;
+}
+
+.last_page:after, .next_page:after{
+    content: "»";
+    margin-left: 5px;
+}
+
+.page_link{
+    border: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: RGB(221,221,221);
+    padding: 7px 14px;
+    margin-left: 3px;
+}
+
+.choose_page{
+    margin-left: 3px;
+    padding: 7px 14px;
+}
+
+.page_link:hover{
+    background-color: RGB(162,59,210);
+    color: white;
+}
