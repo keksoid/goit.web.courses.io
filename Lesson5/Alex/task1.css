@@ -1,0 +1,45 @@
+nav{
+    background-color: RGB(26, 164, 255);
+    position: relative;
+}
+
+ul.menu{
+    width: 900px;
+    margin: auto;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    font-family: Impact;
+    font-size: 18px;
+    color: white;
+    padding: 10px 10px;
+}
+
+li:hover{
+    background-color: RGB(238, 238, 238);
+    color: RGB(170, 170, 160);
+    cursor:context-menu;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: RGB(238, 238, 238);
+    color: RGB(170, 170, 160);
+    cursor:context-menu;
+    margin-top: 10px;
+}
+
+.submenu>ul{
+    margin: auto;
+    width: 900px;
+}
+
+
+li:hover>.submenu{
+    display: block;
+}
