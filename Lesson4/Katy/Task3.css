@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    color: #a64dff;
+    padding: 0 16px;
+    font-family: Arial;
+
+}
+.qqq {
+    color: black;
+}
+.first:before {
+    content:"«";
+    position: relative;
+    top: -1px;
+}
+.prev:before {
+    content:"«";
+    position: relative;
+    top: -1px;
+
+}
+
+.next:after {
+    content: "»";
+   position: relative;
+    top: -1px;
+
+}
+.last:after {
+    content: "»";
+    position: relative;
+    top: -1px;
+}
+.one,.two,.five,.six,.seven,.eight,.nine {
+     border: 1px  solid;
+     border-color: #dddddd;
+     border-radius: 4px;
+     padding: 5px 10px;
+ }
+.select:hover {
+    color: white;
+    background-color: #a64dff;
+    cursor: hand;
+}
+
