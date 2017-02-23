@@ -1,0 +1,49 @@
+div {
+    background-color: #1aa4ff ;
+    position: relative;
+
+
+}
+
+
+.menu {
+    background-color: #1aa4ff;
+    list-style-type: none;
+    width: 900px;
+    margin: auto;
+
+}
+.sub_menu {
+    width: 900px;
+    background-color:#dddddd ;
+
+}
+ ul {
+    display: none;
+     position: absolute;
+     top: 38px;
+     left: 0;
+     right:0;
+     width: 900px;
+     margin: auto;
+
+
+ }
+
+li {
+    display: inline-block;
+    font: 20px Impact;
+    color: white;
+    padding: 7px 8px;
+
+}
+ li:hover {
+    color: #a0a0a0;
+    background-color:#eeeeee;
+    cursor:context-menu;
+
+}
+
+ li:hover ul{
+     display: block;
+ }
