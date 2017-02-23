@@ -1,0 +1,86 @@
+body{
+    width: 296px;
+}
+
+.banner{
+    border: solid 4px RGB(238, 129, 31) ;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 3px #c9e1ee
+}
+
+.banner_header{
+    background-color: RGB(238, 129, 31);
+}
+
+.banner_header>h1{
+    box-sizing: content-box;
+    width: 136px;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "Trebuchet MS";
+    padding: 24px 0 22px;
+}
+
+.price_info>h2{
+    width: 187px;
+    padding: 18px 0 7px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: "Trebuchet MS";
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.price{
+    position: relative;
+    width: 154px;
+    margin: auto;
+}
+
+.currency{
+    position: absolute;
+    top: 0;
+    left: -15px;
+    font-size: 24px;
+    font-family: "Trebuchet MS";
+}
+
+.value{
+    font-size: 72px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+
+.period{
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    font-family: "Trebuchet MS";
+}
+
+.details{
+    padding: 26px 15px 15px;
+    margin: auto;
+    list-style: none;
+    font-size: 15px;
+    font-family: "Trebuchet MS";
+}
+
+li{
+    padding: 7px 0px 8px 30px;
+    border-bottom: solid white 1px;
+}
+
+li:nth-child(even){
+    background-color: #f5f5f6;
+}
+
+li:nth-child(odd){
+    background-color: #edf5fd;
+}
+
+li:before{
+    content: url("check_img.png");
+}
