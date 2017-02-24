@@ -1,5 +1,6 @@
 body{
     width: 296px;
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 .banner{
@@ -17,16 +18,14 @@ body{
     color: white;
     text-transform: uppercase;
     font-size: 24px;
-    font-family: "Trebuchet MS";
     padding: 24px 0 22px;
     text-align: center;
 }
 
 .price_info>h2{
-        padding: 18px 0 7px;
+    padding: 18px 0 7px;
     margin: 0 0;
     font-size: 24px;
-    font-family: "Trebuchet MS";
     text-transform: uppercase;
     font-weight: normal;
     text-align: center;
@@ -34,8 +33,7 @@ body{
 
 .price{
     position: relative;
-    width: 154px;
-    margin: auto;
+    margin: 0 0 0 75px;
 }
 
 .currency{
@@ -43,12 +41,11 @@ body{
     top: 0;
     left: -15px;
     font-size: 24px;
-    font-family: "Trebuchet MS";
 }
 
 .value{
+    display: inline-block;
     font-size: 72px;
-    font-family: "Trebuchet MS";
     font-weight: bold;
 }
 
@@ -56,7 +53,6 @@ body{
     position: absolute;
     bottom: 0;
     font-size: 18px;
-    font-family: "Trebuchet MS";
 }
 
 .details{
@@ -64,11 +60,10 @@ body{
     margin: auto;
     list-style: none;
     font-size: 15px;
-    font-family: "Trebuchet MS";
 }
 
 li{
-    padding: 7px 0px 8px 30px;
+    padding: 7px 0 8px 30px;
     border-bottom: solid white 1px;
 }
 
@@ -81,5 +76,31 @@ li:nth-child(odd){
 }
 
 li:before{
+    margin-right: 15px;
+    background-color: transparent;
     content: url("check_img.png");
+}
+
+.button{
+    display: block;
+    width: 85%;
+    height: 38px;
+    margin: 0 auto 32px;
+
+    border: none;
+    border-bottom: solid #b3560b 3px;
+    border-radius: 4px;
+
+    background-color: RGB(238, 129, 31);
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.button:active{
+    border: none;
+}
+
+.button:focus{
+    outline: none;
 }
